@@ -11,7 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black; /* Change to black background */
+    background-color: black; 
     color: #f2be96;
     padding: 10px 20px;
     position: fixed;
