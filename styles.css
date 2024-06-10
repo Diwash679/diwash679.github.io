@@ -124,22 +124,35 @@ footer {
 }
 
 #parallax1 {
-    background-image: url('images/Coffee.jpg');
+    background-image: url('Coffee.jpg');
 }
 
 #parallax2 {
-    background-image: url('images/Sandwich.jpeg');
+    background-image: url('Sandwich.jpeg');
 }
 
 #parallax3 {
-    background-image: url('images/Cafe.jpeg');
+    background-image: url('Cafe.jpeg');
 }
 
 #parallax4 {
-    background-image: url('images/karaoke.jpeg');
-    padding-top: 500px;
+    background-image: url('Karaoke.jpg');
+
+}
+#parallax5 {
+    background-image: url('Live.jpg');
+
 }
 
+#parallax6 {
+    background-image: url('openmic.jpg');
+
+}
+
+#parallax7 {
+    background-image: url('Calling.jpg');
+
+}
 /* Media queries for responsive design */
 @media (max-width: 768px) {
     header h1 {
