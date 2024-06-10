@@ -11,8 +11,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
-    color: #6b4f4f;
+    background-color: black; /* Change to black background */
+    color: #f2be96;
     padding: 10px 20px;
     position: fixed;
     width: 100%;
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #6b4f4f;
+    color: #f2be96; /* Adjust color for better visibility */
     text-decoration: none;
     font-size: 18px;
 }
@@ -64,7 +64,15 @@ section {
 }
 
 section h2 {
-    color: #6b4f4f;
+    color: #f2be96;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 0;
 }
 
 form {
@@ -116,36 +124,23 @@ footer {
 }
 
 #parallax1 {
-    background-image: url('Coffee.jpg');
+    background-image: url('images/Coffee.jpg');
 }
 
 #parallax2 {
-    background-image: url('Sandwich.jpeg');
+    background-image: url('images/Sandwich.jpeg');
 }
 
 #parallax3 {
-    background-image: url('Cafe.jpeg');
+    background-image: url('images/Cafe.jpeg');
 }
 
 #parallax4 {
-    background-image: url('Karaoke.jpg');
-
-}
-#parallax5 {
-    background-image: url('Live.jpg');
-
+    background-image: url('images/karaoke.jpeg');
+    padding-top: 500px;
 }
 
-#parallax6 {
-    background-image: url('openmic.jpg');
-
-}
-
-#parallax7 {
-    background-image: url('Calling.jpg');
-
-}
-
+/* Media queries for responsive design */
 @media (max-width: 768px) {
     header h1 {
         font-size: 20px;
