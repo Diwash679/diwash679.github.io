@@ -172,3 +172,15 @@ footer {
         padding: 100px 10px 20px;
     }
 }
+button.styled-button {
+    background-color: #6b4f4f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.styled-button:hover {
+    background-color: #553939;
+}
